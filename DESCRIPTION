@@ -1,6 +1,6 @@
 Package: syntrial
 Title: synthesize data from real clinical trial
-Version: 0.4.0.9000
+Version: 0.4.1.9000
 Authors@R: 
     person(given = "Reinhold",
            family = "Koch",
@@ -26,4 +26,4 @@ Imports:
     philentropy
 Suggests: 
     testthat (>= 2.1.0)
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.1

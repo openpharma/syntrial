@@ -1,0 +1,23 @@
+#' Synthetic "twin trial" from real clinical trial data in SDTM format.
+#'
+#' Stricter privacy regulations affect not only sharing of clinical trial data
+#' but also development of analysis scripts and reports. Synthetic data with
+#' same statistical properties as the original data can be used instead,
+#' possibly even for data exploration.
+#' 
+#' syntrial synthesizes data in SDTM format and protects privacy via an intermediate
+#' mechanism between frequentist and Bayesian bootstrap. For each synthesized patient
+#' a number of source patients is selected. From the source patients' data randomly
+#' weighted numeric values or, for categorical variables, one value is selected.
+#' 
+#' @section synthdf:  
+#' create the table linking real and synthetic persons
+#' @section synthesize:
+#' synthesize demographic and findings data
+#' @section synthesize_E:
+#' synthesize events data
+#'
+#' @docType package
+#' @name syntrial
+NULL
+#> NULL
