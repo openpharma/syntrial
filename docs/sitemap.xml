@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://docs.roche.com/#/syntrial/latest/index.html</loc>
+  </url>
+  <url>
+    <loc>http://docs.roche.com/#/syntrial/latest/reference/CRC305ABC_AE.html</loc>
+  </url>
+  <url>
+    <loc>http://docs.roche.com/#/syntrial/latest/reference/CRC305ABC_DM.html</loc>
+  </url>
+  <url>
+    <loc>http://docs.roche.com/#/syntrial/latest/reference/CRC305ABC_LB.html</loc>
+  </url>
+  <url>
+    <loc>http://docs.roche.com/#/syntrial/latest/reference/CRC305ABC_VS.html</loc>
+  </url>
+  <url>
+    <loc>http://docs.roche.com/#/syntrial/latest/reference/categorical_vars.html</loc>
+  </url>
+  <url>
+    <loc>http://docs.roche.com/#/syntrial/latest/reference/domain_ids.html</loc>
+  </url>
+  <url>
+    <loc>http://docs.roche.com/#/syntrial/latest/reference/synth_df.html</loc>
+  </url>
+  <url>
+    <loc>http://docs.roche.com/#/syntrial/latest/reference/synthesize.html</loc>
+  </url>
+</urlset>

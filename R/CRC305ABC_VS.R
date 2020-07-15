@@ -1,0 +1,42 @@
+#' vital sign data from clinical trials CRC305ABC
+#' 
+#' An anonymized dataset from 123 patients in SDTM format (\url{https://en.wikipedia.org/wiki/SDTM}).
+#' 
+#' @format A dataframe with 20581 rows and 25 variables:
+#'   \describe{
+#'     \item{STUDYID}{Study Identifier}
+#'     \item{DOMAIN}{Domain Abbreviation}
+#'     \item{USUBJID}{Unique Subject Identifier}
+#'     \item{VSSEQ}{Sequence Number}
+#'     \item{VSTESTCD}{Vital Signs Test Short Name}
+#'     \item{VSTEST}{Vital Signs Test Name}
+#'     \item{VSPOS}{Vital Signs Position of Subject}
+#'     \item{VSORRES}{Result or Finding in Original Units}
+#'     \item{VSORRESU}{Original Units}
+#'     \item{VSSTRESC}{Character Result/Finding in Std Format}
+#'     \item{VSSTRESN}{Numeric Result/Finding in Standard Units}
+#'     \item{VSSTRESU}{Standard Units}
+#'     \item{VSSTAT}{Completion Status}
+#'     \item{VSREASND}{Reason Not Performed}
+#'     \item{VSLOC}{Location of Vital Signs Measurement}
+#'     \item{VSBLFL}{Baseline Flag}
+#'     \item{VISITNUM}{Visit Number}
+#'     \item{VISIT}{Visit Name}
+#'     \item{VSDTC}{Date/Time of Measurements}
+#'     \item{VSDY}{Study Day of Vital Signs}
+#'     \item{VSTPT}{Planned Time Point Name}
+#'     \item{VSTPTNUM}{Planned Time Point Number}
+#'     \item{VSORNRLO}{Reference Range Lower Limit}
+#'     \item{VSORNRHI}{Reference Range Upper Limit}
+#'     \item{VSNRIND}{Reference Range Indicator}
+#'     }
+#' 
+#' @source \url{https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/QPHMKX}
+#'
+#' \preformatted{
+#' CRC305ABC_VS <- readr::read_tsv('https://dataverse.harvard.edu/api/access/datafile/3462714?gbrecs=false',
+#'                                 col_types = 'ccciccccccdcccccicciciccc',
+#'                                 locale = readr::locale(encoding = 'latin1')
+#'                                 )
+#' }
+'CRC305ABC_VS'

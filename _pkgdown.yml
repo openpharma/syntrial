@@ -1,0 +1,22 @@
+destination: docs
+url: http://docs.roche.com/#/syntrial/latest
+
+repo:
+  url:
+    home: https://code.roche.com/rpackages/syntrial/
+    source: https://code.roche.com/rpackages/syntrial/-/tree/master/
+    issue: https://code.roche.com/rpackages/syntrial/-/issues/
+    user: https://code.roche.com/
+
+home:
+  strip_header: true
+
+reference:
+- title: Functions
+- contents:
+  - -starts_with("CRC305ABC_")
+- title: Sample data
+  desc:  Public clinical trial data used for demonstration here.
+- contents:
+  - starts_with("CRC305ABC_")
+  
