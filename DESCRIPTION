@@ -1,6 +1,6 @@
 Package: syntrial
 Title: synthesize data from real clinical trial
-Version: 0.4.1.9000
+Version: 0.4.1.9001
 Authors@R: 
     person(given = "Reinhold",
            family = "Koch",
@@ -11,19 +11,17 @@ Description: Syntrial takes as input the data of a clinical trial in SDTM format
     a number of source patients is selected. From the source patients' data randomly
     weighted numeric values or, for categorical variables, one value is selected in
     a modification of classical bootstrap.
-URL: http://docs.roche.com/#/syntrial/latest, https://code.roche.com/rpackages/syntrial
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.5)
 Imports: 
-    tidyr,
     dplyr (>= 1.0),
-    tibble,
     lubridate,
     magrittr,
-    forcats,
-    philentropy
+    philentropy,
+    tibble,
+    tidyr
 Suggests: 
     testthat (>= 2.1.0)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
