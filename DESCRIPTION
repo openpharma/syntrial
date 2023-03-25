@@ -1,6 +1,6 @@
 Package: syntrial
 Title: synthesize data from real clinical trial
-Version: 0.4.1.9001
+Version: 0.4.2.9000
 Authors@R: 
     person(given = "Reinhold",
            family = "Koch",
