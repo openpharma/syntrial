@@ -57,7 +57,7 @@ Hmax <- function(N) {
 #' vars <- c('SEX', 'RACE')
 #' Hvars(CRC305ABC_DM, all_of(vars))}
 Hvars <- function(.data, ...) {
-  if (...length()==0) log(nrow(.data), 2) else philentropy::H(dplyr::count(dplyr::select(.data, ...), dplyr::across())$n/nrow(.data))
+  if (...length()==0) log(nrow(.data), 2) else philentropy::H(dplyr::count(dplyr::select(.data, ...), dplyr::across(), name='nn_xyz_')$nn_xyz_/nrow(.data))
 }
 
 #' Shannon entropy of subsets of dataframe variables
